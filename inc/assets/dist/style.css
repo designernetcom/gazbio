@@ -368,8 +368,8 @@ p {
 
 @media(max-width: 1456px) {
 	.hero-slider .swiper-slide .hero-text-box {
-		padding-top: 18.2rem;
-		padding-bottom: 9.2rem
+		padding-top: 21.2rem;
+		padding-bottom: 15.2rem
 	}
 }
 
@@ -6032,8 +6032,8 @@ header.scrolled .hamburger-icon .bar {
 }
 .cont-data h5{
 	font-family: sans-serif;
-	font-size: 24px;
-    padding-bottom: 10px;
+	font-size: 21px;
+    padding-bottom: 3px;
     color: #fff;
     font-weight: 600;
 }
@@ -6160,6 +6160,10 @@ header.scrolled .hamburger-icon .bar {
 	}
 	.footer .row{
 		/* flex-direction: column-reverse; */
+	}
+	.hero-slider .swiper-slide .hero-text-box {
+		padding-top: 21.2rem;
+		padding-bottom: 10.2rem
 	}
 }
 @media(max-width:991px) {
