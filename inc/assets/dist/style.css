@@ -169,7 +169,8 @@ body {
 	font-family:  sans-serif;
 	color: var(--grey-black);
 	font-weight: 700;
-	text-align: left
+	text-align: left;
+	line-height: 52px;
 }
 
 @media(max-width: 991px) {
@@ -2263,7 +2264,7 @@ p {
 }
 
 .healthcare-section .healthcare-img-block {
-	background: url(e11a176f082069c71a34.png);
+	background: url(../images/video-img-22.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
@@ -2283,7 +2284,7 @@ p {
 	align-items: center;
 	gap: 2.8rem;
 	max-width: 660px;
-	height: 167px;
+	height: 130px;
 	border-radius: 20px 0 0 20px;
 	padding: 2.4rem;
 	position: absolute;
@@ -2330,7 +2331,7 @@ p {
 }
 
 .healthcare-section .healthcare-img-block .text-banner .banner-inner-text {
-	font-size: var(--font-size-lg);
+	font-size: 28px;
 	font-family:  sans-serif;
 	color: var(--grey-black);
 	font-weight: bold;
@@ -2382,16 +2383,20 @@ p {
 }
 
 .healthcare-section .healthcare-details .dog-healthcare-services .service-item .service-icon {
-	width: 85px;
-	height: 85px;
-	background-color: var(--grey-bg);
-	border: 2px solid #75ac53;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	left: -30px
+	width: 50px;
+    height: 50px;
+    background-color: var(--grey-bg);
+    border: 2px solid #75ac53;
+    border-radius: 50%;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -15px;
+}
+.service-icon i{
+	font-size: 19px;
 }
 
 @media(max-width: 991px) {
@@ -2404,8 +2409,8 @@ p {
 
 @media(max-width: 767px) {
 	.healthcare-section .healthcare-details .dog-healthcare-services .service-item .service-icon {
-		height: 65px;
-		width: 65px
+		height: 45px;
+		width: 45px
 	}
 }
 
@@ -2417,8 +2422,8 @@ p {
 }
 
 .healthcare-section .healthcare-details .dog-healthcare-services .service-item .service-content {
-	margin-left: 80px;
-	padding: 30px 0;
+	margin-left: 65px;
+	padding: 18px 0;
 	border-bottom: 1px solid var(--border-color)
 }
 
@@ -2438,35 +2443,37 @@ p {
 }
 
 .healthcare-section .healthcare-details .dog-healthcare-services .service-item .service-content .service-detail {
-	color: var(--grey);
-	font-size: var(--font-size-x-sm);
-	font-family: var(--font-family-spartan);
-	font-weight: 500;
-	line-height: 1.665
+	color: #565656;
+    font-size: var(--font-size-x-sm);
+    font-family: var(--font-family-spartan);
+    /* font-weight: 500; */
+    line-height: 1.465;
 }
-
+.healthcare-img-block .text-banner i{
+	font-size: 50px;
+}
 .healthcare-section .healthcare-details .dog-healthcare-services .container:before {
 	content: "";
 	position: absolute;
 	left: 42px;
 	top: 0;
 	bottom: 0;
-	width: 2px;
+	width: 1px;
 	background-color: #75ac53;
-	height: 400px;
+	height: 480px;
 	margin: auto
 }
 
 @media(max-width: 991px) {
 	.healthcare-section .healthcare-details .dog-healthcare-services .container:before {
-		left: 42px;
+		left: 33px;
 		height: 347px
 	}
 }
 
 @media(max-width: 767px) {
 	.healthcare-section .healthcare-details .dog-healthcare-services .container:before {
-		height: 332px
+		height: 410px
 	}
 }
 
